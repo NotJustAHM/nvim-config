@@ -1,0 +1,44 @@
+# Neovim
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Backup files
+*~
+.#*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+/tmp/
+/cache/
+
+# Local data
+.local/
+
+# Plugin generated files
+plugin/.cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# Build artifacts
+target/
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc

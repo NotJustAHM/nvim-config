@@ -1,0 +1,38 @@
+return {
+    {
+        "windwp/nvim-autopairs",
+
+        event = "InsertEnter",
+
+        opts = {
+            check_ts = true,
+
+            ts_config = {
+                lua = { "string" },
+                javascript = { "template_string" },
+            },
+
+            disable_filetype = {
+                "TelescopePrompt",
+                "spectre_panel",
+            },
+
+            fast_wrap = {
+                map = "<M-e>",
+                chars = {
+                    "{",
+                    "[",
+                    "(",
+                    "'",
+                    '"',
+                },
+                pattern = [=[[%'%"%w%%%'%"%w%.,%$]]=],
+                end_key = "$",
+                keys = "qwertyuiopasdfghjklzxcvbnm",
+                check_comma = true,
+                hightlight = "Search",
+                highlight_grey = "Comment",
+            },
+        },
+    },
+}

@@ -1,0 +1,20 @@
+return {
+    {
+        "mfussenegger/nvim-dap-python",
+
+        ft = "python",
+
+        dependencies = {
+            "mfussenegger/nvim-dap",
+        },
+
+        config = function()
+            local dap_python = require("dap-python")
+
+            dap_python.setup(
+                vim.fn.stdpath("data")
+                .. "/mason/packages/debugpy/venv/bin/python"
+            )
+        end,
+    },
+}
