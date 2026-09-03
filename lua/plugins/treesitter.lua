@@ -16,6 +16,7 @@ return {
                 "c",
                 "cpp",
                 "rust",
+                --"ruby_lsp",
                 "go",
                 "javascript",
                 "typescript",

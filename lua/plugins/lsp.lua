@@ -73,6 +73,11 @@ return {
                 capabilities = capabilities,
             })
 
+            -- Ruby
+            vim.lsp.config("ruby_lsp", {
+                capabilities = capabilities,
+            })
+
             -- Bash
             -- vim.lsp.config("bashls", {
             --     capabilities = capabilities,
