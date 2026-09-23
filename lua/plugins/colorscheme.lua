@@ -7,7 +7,7 @@ return {
         lazy = false,
 
         opts = {
-            flavour = "mocha",
+            flavour = "macchiato",
 
             transparent_background = false,
 
